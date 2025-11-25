@@ -45,8 +45,8 @@ Both run in separate containers managed by docker-compose.
 ├── app/
 │   ├── app.py                 # Flask application
 │   ├── requirements.txt        # Python dependencies
-│   ├── Dockerfile             # Docker image for Flask app
-│   └── templates/             # HTML templates (if any)
+│   └── Dockerfile             # Docker image for Flask app
+│    
 ├── tests/
 │   └── test_basic.py          # Unit tests
 ├── docker-compose.yml         # Multi-container orchestration
@@ -87,7 +87,7 @@ sudo usermod -aG docker ubuntu
 Clone the repository (first time only):
 
 ```bash
-git clone <your-repo>
+git clone https://github.com/harcastic/two-tier-flask-app.git
 cd two-tier-flask-app
 ```
 
