@@ -3,7 +3,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Flask App Running!"
+    return "Flask App Running! - There you go " \
+    "You did it Yattta - _ -"
 
 @app.route("/health")
 def health():
