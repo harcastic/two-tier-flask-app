@@ -3,7 +3,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return " New Upates are released!!" 
+    return " \n \n \n  New Upates are released!! \n \n " \
+    "This is version 2.1" 
 
 @app.route("/health")
 def health():
